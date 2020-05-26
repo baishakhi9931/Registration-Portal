@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="color_testing.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Titillium+Web&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="first">
+	<h1>Register</h1>
+	<form>
+		<label for="FirstName">First Name:</label>
+		<input type="text" id="FirstName" placeholder="First Name" name="Name" required>
+		<label for=LastName>Last Name:</label>
+		<input type="text" id="LastName" placeholder="Last Name" name="Name" required="">
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="others">Others</label>
+			<input type="radio" id="others" name="gender" value="others">
+		</div>
+		<div>
+			<lable for="email">Email:</lable>
+			<input type="email" name="email" id="email" placeholder="Email Address" required>
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password"  required pattern=".{5,10}" title="Password must be between 5 and 10" placeholder="Password">
+		</div>
+		<div>
+			<label for="select-choice">Birthday:
+				<select name="BirthDay-Month" id="select-choice">
+		    		<option selected disabled>Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option>
+				</select>
+				<select name="BirthDay-Day" id="select-choice">
+	        		<option selected disabled>Day</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+				</select>
+				<select name="BirthDay-Year" id="select-choice">
+					<option  selected disabled>Year</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option>
+				</select>
+			</label>
+		</div>
+		<div>
+			<label for="checkbox">I agree to the terms and conditiond</label>
+			<input type="checkbox" id="checkbox" name="Terms and conditions" value="Accepted">
+		</div>
+		<div>
+			<button>submit</button>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
 
