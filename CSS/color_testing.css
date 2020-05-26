@@ -1,1 +1,71 @@
+select{
+	background-image:  C:\Users\Public\Pictures\Sample Pictures\Lighthouse.jpg
+}
+#FirstName{
+	background-color:  #fff0e6;
+}
+#LastName{
+	background-color:  #fff0e6;
+}
+#email{
+	background-color:  #fff0e6;
+	border: 1px solid #ff99cc;
+	border-width: 1px;
+}
+#password{
+	background-color:  #fff0e6;
+	border: 1px solid #ff99cc;
+	border-width: 1px;
+}
+#FirstName{
+	border: 1px solid #66d9ff;
+	border-width: 1px;
+}
+#LastName{
+	border: 1px solid #66d9ff;
+	border-width: 1px;
+} 
+body{
+	background:  #ffccdc;
+	
+}
+form{
+	background:  #dce6ef;
+	color: black;
+	border: 2px solid #f6a2b3;
+	padding: 10px;
+	font-family: Titillium Web;
+}
+button{
+	background-color:  #b3ff66;
+}
+h1{
+	font-family: Roboto Slab;
+	color: #de5454;
+}
+#first{
+	text-align: center;
+	margin: 0 250px 0 250px;
+}
+#second{
+    
+	margin: 0 150px 0 150px;
+    text-align: justify;
+    justify-content: center;
+     position: absolute;
+    align-items: center;
+    top: 150px;
+  border: 5px solid green
 
+}
+#third{
+   margin: 0 1000px 0 1085px;
+    text-align: justify;
+    justify-content: center;
+     position: absolute;
+    align-items: center;
+    top: 150px;
+  border: 5px solid green;
+    
+
+}
